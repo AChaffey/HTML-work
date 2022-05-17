@@ -1,10 +1,18 @@
 
 body {
-    background-color: blue;
+    background-color: rgb(253, 0, 0);
+    align-self: start;
+    border-top: 20em;
 
 }
 
 #heading3 {
     color: lawngreen;
     margin-left: 20px;
+}
+
+#wow {
+    color: aqua; 
+    font: 22px Arial ;
+  
 }

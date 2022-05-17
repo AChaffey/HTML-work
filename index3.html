@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- Forms -->
+    <!-- For taking user input -->
+    <!-- Two main attributes Which are Method and Action -->
+    <!-- Method- HOW to send the data--->
+    <!-- Action- WHERE to send the data -->
+
+    <!-- GET method- Not sensitve info -->
+    <!-- Sends to URL bar (dont use sensitive info) -->
+    <form method="get" action="search.html">
+        <h4> GET form</h4>
+        <!-- Inputting for TEXT -->
+        <input name="b1" type="text" />
+        <!-- a button -->
+        <button>SEND ITTTT!</button>
+        <!-- POST method- ALways sensitive info -->
+
+        <!-- You dont NEED an action or method for a form, but instead link the Javascripts -->
+        <h4> More inputs</h4>
+
+        <!-- Checkboxs -->
+        1<input type="Checkbox" name=" checkbox1" value="1" />
+
+
+
+    </form>
+<!-- Task Form task 5 -->
+    <form method="post" action="Index.html">
+        <h1> sign up form</h4>
+            <fieldset>
+                <legend><span class="number">1</span> Your Basic Info</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="mail" name="user_email">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password"       name="user_password">
+                <br>
+                <label>Gender:</label>
+                <br>
+                <input type="radio" id="m_gender" value="m_gender" name="gender"><label for="m_gender">Male</label><br>
+                <input type="radio" id="f_gender" value="f_gender" name="gender"><label for="f_gender">Female</label>
+            </fieldset>
+            <button type="submit">Sign Up</button>
+        </form>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
