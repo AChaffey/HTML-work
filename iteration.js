@@ -20,7 +20,9 @@ while (flag) {
     }
 }
 //Task 1 (ME)- flow chart
-let d= 20;
+let d= 100;
+let a = 50;
+let b = 40;
 
 if (d < 200 ) {
     console.log("A");
@@ -30,17 +32,17 @@ if (d < 200 ) {
 
 }
 //task 1 (QA)- flowchart
-let b = 100;
-while (b <= 200) {
-  b++;
-  console.log(`b = ${b}`);
+
+while (d <= 200) {
+  d++;
+  console.log(`d = ${d}`);
 }
 // For task 4 (QA) using for loops instead of while
-for (let a = 100; a <= 200; a++) {
-    console.log(`a = ${a}`);
+for (let d = 100; d <= 200; d++) {
+    console.log(`a = ${d}`);
   }
 // Task 2 (QA)- flow chart
-let a = 100;
+
 while (a <= 200) {
   if (a % 2 == 0) {
     console.log("-");
@@ -50,8 +52,8 @@ while (a <= 200) {
   a++;
 }
 // Task 4 (QA)- using for loops instead of while
-for (let a = 100; a <= 200; a++) {
-    if (a % 2 == 0) {
+for (let b = 100; b <= 200; b++) {
+    if (b % 2 == 0) {
       console.log("-");
     } else {
       console.log("*");
