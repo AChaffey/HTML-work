@@ -12,7 +12,6 @@ let multiBtn = document.querySelector("#multi");
 let divideBtn = document.querySelector("#divide");
 let clearBtn = document.querySelector("#clearBtn");
 
-
 // Divs
 let mainDiv = document.querySelector("#mainDiv");
 
